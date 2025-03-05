@@ -1,6 +1,6 @@
 # Debian Live without GUI
 
-[Download ISO](https://github.com/snwfdhmp/debian-live-nogui/releases)
+[List of downloadable ISO](https://github.com/snwfdhmp/debian-live-nogui/releases)
 
 ## Philosophy
 
