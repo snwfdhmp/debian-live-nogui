@@ -1,14 +1,8 @@
-RELEASE_TAG=$(date -u +'%Y-%m-%d')-$(git rev-parse HEAD | cut -c1-8)
+RELEASE_TAG="$(date -u +'%Y-%m-%d')-$(git rev-parse HEAD | cut -c1-8)"
 
 # if git is dirty, refuse
 if [ -n "$(git status --porcelain)" ]; then
     echo "Error: Git is dirty"
-    exit 1
-fi
-
-# if git tag already exists, refuse
-if git tag -l "$RELEASE_TAG"; then
-    echo "Error: Tag $RELEASE_TAG already exists"
     exit 1
 fi
 
