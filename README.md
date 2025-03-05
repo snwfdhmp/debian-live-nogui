@@ -1,4 +1,4 @@
-# Debian Live without GUI - [download](https://github.com/snwfdhmp/debian-live-nogui/releases)
+# Debian Live without GUI - [download](https://github.com/snwfdhmp/debian-live-nogui/releases/latest)
 
 [List of pre-built ISO](https://github.com/snwfdhmp/debian-live-nogui/releases)
 

@@ -19,4 +19,4 @@ git tag "$RELEASE_TAG"
 git push origin "$RELEASE_TAG"
 
 # create the release using dist_all/*.iso and dist_all/build.log as changelog
-gh release create "$RELEASE_TAG" -t "Debian Live NoGUI $RELEASE_TAG" -F dist_all/build.log dist_all/*.iso
+gh release create "$RELEASE_TAG" -t "debian-live-nogui ISO pre-built on $(date -u +'%Y-%m-%d')" -F dist_all/build.log dist_all/*.iso
