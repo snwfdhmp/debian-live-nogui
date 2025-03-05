@@ -10,7 +10,7 @@ This project aims at building the Debian live CD with as little difference as po
 
 We are using the official [live-build](https://live-team.pages.debian.net/live-manual/html/live-manual/index.en.html) tool from the Debian team.
 
-## Option 1: Download ready to use ISO
+## Option 1: Download ready to use ISO (recommended)
 
 You can find pre-built ISO on the [release page](https://github.com/snwfdhmp/debian-live-nogui/releases)
 
