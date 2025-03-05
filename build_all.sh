@@ -21,8 +21,8 @@ for profile in ./profiles/*.sh; do
         printf "\`\`\`\n" >>$BUILD_LOG_FILE
         printf "</details>" >>$BUILD_LOG_FILE
 
-        # ./build.sh "$profile"
-        # mv dist/*.iso dist_all/$name.iso
+        ./build.sh "$profile"
+        mv dist/*.iso dist_all/$name.iso
 
         echo "====== $name: done building ======"
     fi
